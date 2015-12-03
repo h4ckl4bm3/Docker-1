@@ -1,0 +1,11 @@
+FROM ubuntu
+MAINTAINER Matt Erasmus <code@zonbi.org>
+RUN addgroup wpscan
+RUN useradd -r -g wpscan -d /opt/wpscan -s /bin/bash -c "WPScan User" wpscan
+RUN apt-get update
+RUN apt-get install -yq libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev
+RUN git clone https://github.com/wpscanteam/wpscan.git /opt/wpscan
+RUN chown wpscan:wpscan -R /opt/wpscan
+WORKDIR /opt/wpscan
+RUN sudo gem install bundler && bundle install --without test
+USER wpscan
