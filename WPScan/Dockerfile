@@ -8,4 +8,5 @@ RUN git clone https://github.com/wpscanteam/wpscan.git /opt/wpscan
 RUN chown wpscan:wpscan -R /opt/wpscan
 WORKDIR /opt/wpscan
 RUN sudo gem install bundler && bundle install --without test
+RUN ./wpscan.rb --update
 USER wpscan
