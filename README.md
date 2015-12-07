@@ -8,3 +8,4 @@ Shenanigans with Docker
  * IVRE (https://ivre.rocks)
  * Spiderfoot (http://www.spiderfoot.net)
  * WPScan (http://wpscan.org)
+ * EyeWitness (https://github.com/ChrisTruncer/EyeWitness)
