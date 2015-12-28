@@ -9,3 +9,5 @@ Shenanigans with Docker
  * Spiderfoot (http://www.spiderfoot.net)
  * WPScan (http://wpscan.org)
  * EyeWitness (https://github.com/ChrisTruncer/EyeWitness)
+ * DVNA (https://github.com/quantumfoam/DVNA)
+ * Recon-ng (https://bitbucket.org/LaNMaSteR53/recon-ng)
