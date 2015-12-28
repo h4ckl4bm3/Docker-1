@@ -9,5 +9,6 @@ WORKDIR /opt/recon-ng
 RUN pip install -r REQUIREMENTS
 RUN chown reconng:reconng -R /opt/recon-ng
 USER reconng
+ADD add_keys.rc /opt/recon-ng/add_keys.rc
 ENTRYPOINT ["/usr/bin/python"]
 CMD ["/opt/recon-ng/recon-ng"]
