@@ -8,4 +8,7 @@ RUN git clone https://github.com/ChrisTruncer/EyeWitness.git /opt/EyeWitness
 RUN chown eyewitness:eyewitness -R /opt/EyeWitness
 WORKDIR /opt/eyewitness/setup
 RUN ./setup.sh
+COPY RunWitness.sh /usr/local/bin/RunWitness.sh
+RUN chmod 775 /usr/local/bin/RunWitness.sh
+RUN chown root:eyewitness /usr/local/bin/RunWitness.sh
 USER eyewitness
