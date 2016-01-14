@@ -17,3 +17,9 @@ resource /opt/recon-ng/add_keys.rc
 ```
 
 to add all your keys to Recon-ng
+
+You can start the OpenSSH daemon from the recon-ng command line with
+```
+sudo service ssh start
+```
+
