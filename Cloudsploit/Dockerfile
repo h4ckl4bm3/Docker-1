@@ -9,4 +9,3 @@ COPY runsploit.sh /usr/local/bin/runsploit.sh
 RUN chmod 700 /usr/local/bin/runsploit.sh
 COPY scan-test-credentials.json /cloudsploit-secure/scan-test-credentials.json
 COPY index.js /opt/cloudsploit/index.js
-COPY databaseSecurity.js /opt/cloudsploit/plugins/rds/databaseSecurity.js
