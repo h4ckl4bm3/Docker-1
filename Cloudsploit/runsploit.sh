@@ -4,4 +4,5 @@ NODEBIN="/usr/bin/nodejs"
 CLOUDDIR="/opt/cloudsploit"
 INDEXFILE="${CLOUDDIR}/index.js"
 
-${NODEBIN} ${INDEXFILE} 
+cd ${CLOUDDIR}
+${NODEBIN} ${INDEXFILE}
