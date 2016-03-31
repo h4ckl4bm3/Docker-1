@@ -11,3 +11,4 @@ Shenanigans with Docker
  * EyeWitness (https://github.com/ChrisTruncer/EyeWitness)
  * DVNA (https://github.com/quantumfoam/DVNA)
  * Recon-ng (https://bitbucket.org/LaNMaSteR53/recon-ng)
+ * VSAQ (https://github.com/google/vsaq)
